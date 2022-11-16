@@ -6,15 +6,30 @@
     }
 
     body{
-        background-color: rgb(187, 184, 184)  
+        background-image: url(./ffundo.jpg);   
+        background-size: cover;
+        background-position:center center;
+        margin-left: auto;
+        margin-right: auto 
     }
 
     section{
+        cursor: pointer;
+        transition: 2s;
+        background-size: cover;
+        background-position:center;
+        margin-left: auto;
+        margin-right: auto;
+        width:500px;
+        height: 500px;
         text-align: center;
         display: block;
         background-color: grey;
-        padding: 1%;
-        border-radius: 3%;
+        padding: 5rem;
+        margin: 5rem;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto 
     }
     footer{
         text-align: center;
@@ -23,10 +38,12 @@
         padding:3%;
     }
     img{ 
-        text-align: center;
-        text-align: center;
+        display: block;
+        margin-left: auto;              
+        margin-right: auto;
         border-radius: 50%;
         box-shadow: 3px 3px white;
-        padding: 2%;
+        padding: 2rem;
+ 
         }
     
